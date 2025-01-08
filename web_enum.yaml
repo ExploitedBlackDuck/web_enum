@@ -1,0 +1,15 @@
+hosts:
+  - ip: 192.168.1.10
+    ports:
+      - port: 80
+        service: http
+      - port: 443
+        service: https
+  - ip: 192.168.1.11
+    ports:
+      - port: 8080
+        service: http
+  - ip: example.com
+    ports:
+      - port: 443
+        service: https
